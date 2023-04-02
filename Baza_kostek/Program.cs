@@ -40,7 +40,6 @@ namespace Baza_kostek
                     //  usunięcie kostki z bazy
                     case "2":
 
-                        removeData(wszystkieKostki);
                         break;
 
                     default:
