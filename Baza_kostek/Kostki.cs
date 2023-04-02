@@ -14,6 +14,19 @@ namespace Baza_kostek
         List<float> czasy_ulozen = new List<float>();
         string dataDodania;
 
+        public Kostki(string nazwa, string dataDodania)
+        {
+            this.nazwa = nazwa;
+            this.dataDodania = dataDodania;
+        }
+
+        public Kostki(string nazwa, float czas, string dataDodania)
+        {
+            this.nazwa = nazwa;
+            this.czasy_ulozen.Add(czas);
+            this.dataDodania = dataDodania;
+        }
+
         public Kostki(string nazwa, List<float> czasy_ulozen, string dataDodania) 
         {
             this.nazwa = nazwa;
