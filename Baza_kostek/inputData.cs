@@ -1,9 +1,6 @@
 ﻿namespace Baza_kostek
 {
 
-
-
-
     partial class Program
     
     {
