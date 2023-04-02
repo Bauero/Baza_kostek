@@ -14,6 +14,12 @@ namespace Baza_kostek
         List<float> czasy_ulozen = new List<float>();
         string dataDodania;
 
+
+        public string Nazwa
+        {
+            get;
+        }
+
         public Kostki(string nazwa, string dataDodania)
         {
             this.nazwa = nazwa;
@@ -33,6 +39,7 @@ namespace Baza_kostek
             this.czasy_ulozen = czasy_ulozen;
             this.dataDodania = dataDodania;
         }
+
 
         public override string ToString()
         {

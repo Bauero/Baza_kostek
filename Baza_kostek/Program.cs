@@ -32,16 +32,25 @@ namespace Baza_kostek
                 switch (odp)
                 {
                     // wczytywanie danych nowej kostki
-                    case "1": 
-                        
-                        inputData(wszystkieKostki);
-                        break;
+                    case "1":
+                        {
+                            inputData(wszystkieKostki);
+                            break;
+                        }
 
                     //  usunięcie kostki z bazy
                     case "2":
+                        {
+                            removeData(wszystkieKostki);
+                            break;
+                        }
 
-                        break;
-
+                    //  wczytanie pliku z kostkami do bazy
+                    case "3": break;
+                    case "4": break;
+                    case "5": break;
+                    case "6": break;
+                    case "7": break;
                     default:
                         {
                             Console.Clear();
