@@ -76,18 +76,7 @@ namespace Baza_kostek
 
                 case "2":
 
-                    while (true)
-                    {
-                        Console.Write("Podaj numer kostki do usunięcia: ");
-                        string odp = Console.ReadLine();
-                        if (CzyInt(odp) != null)
-                        {
-
-                            Console.WriteLine("Nie ma takiego numeru w bazie");
-
-                        }
-                        
-                    }
+                    break;
 
                 case "3":
                     goto informacje;
